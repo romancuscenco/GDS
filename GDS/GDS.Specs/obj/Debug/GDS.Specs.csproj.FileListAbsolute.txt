@@ -7,3 +7,12 @@ D:\VS Projects\GDS\GDS\GDS.Specs\bin\Debug\nunit.framework.xml
 D:\VS Projects\GDS\GDS\GDS.Specs\obj\Debug\GDS.Specs.csprojResolveAssemblyReference.cache
 D:\VS Projects\GDS\GDS\GDS.Specs\obj\Debug\GDS.Specs.dll
 D:\VS Projects\GDS\GDS\GDS.Specs\obj\Debug\GDS.Specs.pdb
+D:\VisualStudioProjects\GDS\GDS\GDS\GDS.Specs\bin\Debug\GDS.Specs.dll.config
+D:\VisualStudioProjects\GDS\GDS\GDS\GDS.Specs\bin\Debug\GDS.Specs.dll
+D:\VisualStudioProjects\GDS\GDS\GDS\GDS.Specs\bin\Debug\GDS.Specs.pdb
+D:\VisualStudioProjects\GDS\GDS\GDS\GDS.Specs\bin\Debug\nunit.framework.dll
+D:\VisualStudioProjects\GDS\GDS\GDS\GDS.Specs\bin\Debug\TechTalk.SpecFlow.dll
+D:\VisualStudioProjects\GDS\GDS\GDS\GDS.Specs\bin\Debug\nunit.framework.xml
+D:\VisualStudioProjects\GDS\GDS\GDS\GDS.Specs\obj\Debug\GDS.Specs.csprojResolveAssemblyReference.cache
+D:\VisualStudioProjects\GDS\GDS\GDS\GDS.Specs\obj\Debug\GDS.Specs.dll
+D:\VisualStudioProjects\GDS\GDS\GDS\GDS.Specs\obj\Debug\GDS.Specs.pdb
