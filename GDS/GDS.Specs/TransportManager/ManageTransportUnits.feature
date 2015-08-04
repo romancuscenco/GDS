@@ -3,42 +3,66 @@
 	As a Transport Manager 
 	I want to be able to view, add and retire GDS Transport Units
 
-@Transport_Manager_User
-Scenario: Go to "Manage Transport" screen after a successful login
-	Given I am logged into GDS as a Transport Manager User
-	And I am in the "MyAccount" screen	
-	When I click on "Manage Transport" link
-	Then I should be redirected to "Manage Transport" screen
+Background: 
+	Given I have the following transports in the system
+		| SerialNumber | Status  |
+		| P-348-A      | Active  |
+		| S-232-G      | Active  |
+		| T-282-D      | Active  |
+		| V-517-U      | Retired |
+		| G-135-N      | Retired |
 
 
 @Transport_Manager_User
-Scenario: View the list with all transports
-	Given I am on the "Manage Transport" screen
-	When I request the list of <Status_desc> Transports
+Scenario: View the list of active transports
+	When I request the list of "Active" Transports
 	Then I should see the following list
-		| SerialNumber | Status_desc  |
-		| P-348-A      | Active       |
-		| S-232-G      | Active       |
-		| T-282-D      | Active       |
-		| V-517-U      | Retired      |
-		| G-135-N      | Retired      |
+		| SerialNumber | Status  |
+		| P-348-A      | Active  |
+		| S-232-G      | Active  |
+		| T-282-D      | Active  |		
+
+@Transport_Manager_User
+Scenario: View the list of retired transports
+	When I request the list of "Retired" Transports
+	Then I should see the following list
+		| SerialNumber | Status  |		
+		| V-517-U      | Retired |
+		| G-135-N      | Retired |
 
 		
 @Transport_Manager_User
 Scenario: Adding new transport to the active list
-	Given I am on the "Manage Transport" screen
 	When I send the request of adding the following transport
-		| SerialNumber |		
-		| C-992-H      |
-	Then I should get a valid <guid> as a response
+		| SerialNumber | Status |
+		| C-992-H      | Active |
+	Then I should have the following active transports in the system
+		| SerialNumber | Status  |
+		| P-348-A      | Active  |
+		| S-232-G      | Active  |
+		| T-282-D      | Active  |
+		| C-992-H      | Active  |		
 
 
 @Transport_Manager_User
 Scenario: Retiring an active transport
-	Given I am on the "Manage Transport" screen
-	When I send the request of adding the following transport
-		| SerialNumber |		
-		| C-992-H      |
-	Then I should get a valid Guid as a response
-
+	When I send the request of retiring the following transport
+		| SerialNumber | Status |
+		| T-282-D      | Active |
+	Then I should have the following retired transports in the system
+		| SerialNumber | Status  |		
+		| T-282-D      | Retired |
+		| V-517-U      | Retired |
+		| G-135-N      | Retired |
  	
+
+@Transport_Manager_User
+Scenario:  Editing an active transport's details
+	When I send the request of editing the following transport's serial number from "T-282-D" to "T-282-DH"		
+	Then I should have the following transports in the system
+		| SerialNumber | Status  |
+		| P-348-A      | Active  |
+		| S-232-G      | Active  |
+		| T-282-DH     | Active  |
+		| V-517-U      | Retired |
+		| G-135-N      | Retired |

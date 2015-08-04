@@ -74,6 +74,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ManageTransportUnits.feature</DependentUpon>
     </Compile>
+    <Compile Include="TransportManager\Steps\ManageTransportUnitsSteps.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Answers.feature">
@@ -91,6 +92,7 @@
       <LastGenOutput>ManageTransportUnits.feature.cs</LastGenOutput>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

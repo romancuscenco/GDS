@@ -1,25 +1,65 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="D:\VS Projects\GDS\GDS\GDS.Specs\bin\Debug\GDS.Specs.dll" total="1" errors="0" failures="0" not-run="0" inconclusive="1" ignored="0" skipped="0" invalid="0" date="2015-08-03" time="14:52:46">
+<test-results name="D:\VS Projects\GDS\GDS\GDS.Specs\bin\Debug\GDS.Specs.dll" total="5" errors="0" failures="0" not-run="0" inconclusive="5" ignored="0" skipped="0" invalid="0" date="2015-08-04" time="16:54:54">
   <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.8009" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.3\bin" machine-name="EN32185" user="rcuscenco" user-domain="ENDAVA" />
   <culture-info current-culture="en-US" current-uiculture="en-US" />
-  <test-suite type="Assembly" name="D:\VS Projects\GDS\GDS\GDS.Specs\bin\Debug\GDS.Specs.dll" executed="True" result="Inconclusive" success="False" time="2.613" asserts="0">
+  <test-suite type="Assembly" name="D:\VS Projects\GDS\GDS\GDS.Specs\bin\Debug\GDS.Specs.dll" executed="True" result="Inconclusive" success="False" time="3.163" asserts="0">
     <results>
-      <test-suite type="Namespace" name="GDS" executed="True" result="Inconclusive" success="False" time="2.566" asserts="0">
+      <test-suite type="Namespace" name="GDS" executed="True" result="Inconclusive" success="False" time="3.109" asserts="0">
         <results>
-          <test-suite type="Namespace" name="Specs" executed="True" result="Inconclusive" success="False" time="2.565" asserts="0">
+          <test-suite type="Namespace" name="Specs" executed="True" result="Inconclusive" success="False" time="3.108" asserts="0">
             <results>
-              <test-suite type="TestFixture" name="OrderingAnswersFeature" description="Ordering answers" executed="True" result="Inconclusive" success="False" time="2.558" asserts="0">
+              <test-suite type="Namespace" name="TransportManager" executed="True" result="Inconclusive" success="False" time="3.107" asserts="0">
                 <results>
-                  <test-case name="GDS.Specs.OrderingAnswersFeature.TheAnswerWithTheHighestVoteGetsToTheTop" description="The answer with the highest vote gets to the top" executed="True" result="Inconclusive" success="False" time="1.027" asserts="0">
-                    <categories>
-                      <category name="mytag_is_here" />
-                    </categories>
-                    <reason>
-                      <message><![CDATA[One or more step definitions are not implemented yet.
-  OrderingAnswersSteps.GivenThereIsAQuestionWithTheAnswers("What's your favou...", <table>)]]></message>
-                    </reason>
-                  </test-case>
+                  <test-suite type="TestFixture" name="ManageTransportUnitsFeature" description="ManageTransportUnits" executed="True" result="Inconclusive" success="False" time="3.100" asserts="0">
+                    <results>
+                      <test-case name="GDS.Specs.TransportManager.ManageTransportUnitsFeature.AddingNewTransportToTheActiveList" description="Adding new transport to the active list" executed="True" result="Inconclusive" success="False" time="1.142" asserts="0">
+                        <categories>
+                          <category name="Transport_Manager_User" />
+                        </categories>
+                        <reason>
+                          <message><![CDATA[One or more step definitions are not implemented yet.
+  ManageTransportUnitsSteps.GivenIHaveTheFollowingTransportsInTheSystem(<table>)]]></message>
+                        </reason>
+                      </test-case>
+                      <test-case name="GDS.Specs.TransportManager.ManageTransportUnitsFeature.EditingAnActiveTransportSDetails" description="Editing an active transport's details" executed="True" result="Inconclusive" success="False" time="0.013" asserts="0">
+                        <categories>
+                          <category name="Transport_Manager_User" />
+                        </categories>
+                        <reason>
+                          <message><![CDATA[One or more step definitions are not implemented yet.
+  ManageTransportUnitsSteps.GivenIHaveTheFollowingTransportsInTheSystem(<table>)]]></message>
+                        </reason>
+                      </test-case>
+                      <test-case name="GDS.Specs.TransportManager.ManageTransportUnitsFeature.RetiringAnActiveTransport" description="Retiring an active transport" executed="True" result="Inconclusive" success="False" time="0.007" asserts="0">
+                        <categories>
+                          <category name="Transport_Manager_User" />
+                        </categories>
+                        <reason>
+                          <message><![CDATA[One or more step definitions are not implemented yet.
+  ManageTransportUnitsSteps.GivenIHaveTheFollowingTransportsInTheSystem(<table>)]]></message>
+                        </reason>
+                      </test-case>
+                      <test-case name="GDS.Specs.TransportManager.ManageTransportUnitsFeature.ViewTheListOfActiveTransports" description="View the list of active transports" executed="True" result="Inconclusive" success="False" time="0.006" asserts="0">
+                        <categories>
+                          <category name="Transport_Manager_User" />
+                        </categories>
+                        <reason>
+                          <message><![CDATA[One or more step definitions are not implemented yet.
+  ManageTransportUnitsSteps.GivenIHaveTheFollowingTransportsInTheSystem(<table>)]]></message>
+                        </reason>
+                      </test-case>
+                      <test-case name="GDS.Specs.TransportManager.ManageTransportUnitsFeature.ViewTheListOfRetiredTransports" description="View the list of retired transports" executed="True" result="Inconclusive" success="False" time="0.005" asserts="0">
+                        <categories>
+                          <category name="Transport_Manager_User" />
+                        </categories>
+                        <reason>
+                          <message><![CDATA[One or more step definitions are not implemented yet.
+  ManageTransportUnitsSteps.GivenIHaveTheFollowingTransportsInTheSystem(<table>)]]></message>
+                        </reason>
+                      </test-case>
+                    </results>
+                  </test-suite>
                 </results>
               </test-suite>
             </results>

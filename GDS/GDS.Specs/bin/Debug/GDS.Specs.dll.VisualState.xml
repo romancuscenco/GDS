@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1011]D:\VS Projects\GDS\GDS\GDS.Specs\bin\Debug\GDS.Specs.dll</TopNode>
+  <SelectedNode>[0-1005]GDS.Specs.TransportManager.ManageTransportUnitsFeature</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1011]D:\VS Projects\GDS\GDS\GDS.Specs\bin\Debug\GDS.Specs.dll" Expanded="true" />
+    <Node UniqueName="[0-1012]GDS" Expanded="true" />
+    <Node UniqueName="[0-1013]GDS.Specs" Expanded="true" />
+    <Node UniqueName="[0-1000]GDS.Specs.OrderingAnswersFeature" Expanded="true" />
+    <Node UniqueName="[0-1014]GDS.Specs.TransportManager" Expanded="true" />
+    <Node UniqueName="[0-1005]GDS.Specs.TransportManager.ManageTransportUnitsFeature" Expanded="true" />
+  </Nodes>
+</VisualState>
