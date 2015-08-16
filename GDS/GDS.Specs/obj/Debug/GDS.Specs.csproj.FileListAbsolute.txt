@@ -16,3 +16,11 @@ D:\VisualStudioProjects\GDS\GDS\GDS\GDS.Specs\bin\Debug\nunit.framework.xml
 D:\VisualStudioProjects\GDS\GDS\GDS\GDS.Specs\obj\Debug\GDS.Specs.csprojResolveAssemblyReference.cache
 D:\VisualStudioProjects\GDS\GDS\GDS\GDS.Specs\obj\Debug\GDS.Specs.dll
 D:\VisualStudioProjects\GDS\GDS\GDS\GDS.Specs\obj\Debug\GDS.Specs.pdb
+D:\VS Projects\GDS\GDS\GDS.Specs\bin\Debug\GDS.Models.dll
+D:\VS Projects\GDS\GDS\GDS.Specs\bin\Debug\GDS.Services.dll
+D:\VS Projects\GDS\GDS\GDS.Specs\bin\Debug\GDS.Models.pdb
+D:\VS Projects\GDS\GDS\GDS.Specs\bin\Debug\GDS.Services.pdb
+D:\VS Projects\GDS\GDS\GDS.Specs\bin\Debug\GDS.Repositories.dll
+D:\VS Projects\GDS\GDS\GDS.Specs\bin\Debug\GDS.Repositories.pdb
+D:\VS Projects\GDS\GDS\GDS.Specs\bin\Debug\Moq.dll
+D:\VS Projects\GDS\GDS\GDS.Specs\bin\Debug\Moq.xml

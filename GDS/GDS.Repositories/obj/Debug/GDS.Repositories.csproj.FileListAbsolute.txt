@@ -1,0 +1,7 @@
+D:\VS Projects\GDS\GDS\GDS.Repositories\bin\Debug\GDS.Repositories.dll
+D:\VS Projects\GDS\GDS\GDS.Repositories\bin\Debug\GDS.Repositories.pdb
+D:\VS Projects\GDS\GDS\GDS.Repositories\obj\Debug\GDS.Repositories.csprojResolveAssemblyReference.cache
+D:\VS Projects\GDS\GDS\GDS.Repositories\obj\Debug\GDS.Repositories.dll
+D:\VS Projects\GDS\GDS\GDS.Repositories\obj\Debug\GDS.Repositories.pdb
+D:\VS Projects\GDS\GDS\GDS.Repositories\bin\Debug\GDS.Models.dll
+D:\VS Projects\GDS\GDS\GDS.Repositories\bin\Debug\GDS.Models.pdb

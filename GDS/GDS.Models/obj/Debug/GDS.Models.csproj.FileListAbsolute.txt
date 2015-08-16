@@ -1,0 +1,4 @@
+D:\VS Projects\GDS\GDS\GDS.Models\bin\Debug\GDS.Models.dll
+D:\VS Projects\GDS\GDS\GDS.Models\bin\Debug\GDS.Models.pdb
+D:\VS Projects\GDS\GDS\GDS.Models\obj\Debug\GDS.Models.dll
+D:\VS Projects\GDS\GDS\GDS.Models\obj\Debug\GDS.Models.pdb

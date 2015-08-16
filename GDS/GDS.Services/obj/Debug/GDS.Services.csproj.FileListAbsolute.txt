@@ -1,0 +1,9 @@
+D:\VS Projects\GDS\GDS\GDS.Services\bin\Debug\GDS.Services.dll
+D:\VS Projects\GDS\GDS\GDS.Services\bin\Debug\GDS.Services.pdb
+D:\VS Projects\GDS\GDS\GDS.Services\obj\Debug\GDS.Services.csprojResolveAssemblyReference.cache
+D:\VS Projects\GDS\GDS\GDS.Services\obj\Debug\GDS.Services.dll
+D:\VS Projects\GDS\GDS\GDS.Services\obj\Debug\GDS.Services.pdb
+D:\VS Projects\GDS\GDS\GDS.Services\bin\Debug\GDS.Models.dll
+D:\VS Projects\GDS\GDS\GDS.Services\bin\Debug\GDS.Models.pdb
+D:\VS Projects\GDS\GDS\GDS.Services\bin\Debug\GDS.Repositories.dll
+D:\VS Projects\GDS\GDS\GDS.Services\bin\Debug\GDS.Repositories.pdb

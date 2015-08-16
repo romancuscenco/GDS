@@ -74,13 +74,13 @@ namespace GDS.Specs.TransportManager
                         "Status"});
             table1.AddRow(new string[] {
                         "P-348-A",
-                        "Active"});
+                        "Ready"});
             table1.AddRow(new string[] {
                         "S-232-G",
-                        "Active"});
+                        "Ready"});
             table1.AddRow(new string[] {
                         "T-282-D",
-                        "Active"});
+                        "Ready"});
             table1.AddRow(new string[] {
                         "V-517-U",
                         "Retired"});
@@ -104,22 +104,22 @@ this.ScenarioSetup(scenarioInfo);
 #line 6
 this.FeatureBackground();
 #line 18
- testRunner.When("I request the list of \"Active\" Transports", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("I request the list of Transports that are not retired", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
                         "SerialNumber",
                         "Status"});
             table2.AddRow(new string[] {
                         "P-348-A",
-                        "Active"});
+                        "Ready"});
             table2.AddRow(new string[] {
                         "S-232-G",
-                        "Active"});
+                        "Ready"});
             table2.AddRow(new string[] {
                         "T-282-D",
-                        "Active"});
+                        "Ready"});
 #line 19
- testRunner.Then("I should see the following list", ((string)(null)), table2, "Then ");
+ testRunner.Then("I should see the following active transports list", ((string)(null)), table2, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -136,7 +136,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 6
 this.FeatureBackground();
 #line 27
- testRunner.When("I request the list of \"Retired\" Transports", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("I request the list of Retired Transports", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
                         "SerialNumber",
@@ -148,7 +148,7 @@ this.FeatureBackground();
                         "G-135-N",
                         "Retired"});
 #line 28
- testRunner.Then("I should see the following list", ((string)(null)), table3, "Then ");
+ testRunner.Then("I should see the following retired transports list", ((string)(null)), table3, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -170,7 +170,7 @@ this.FeatureBackground();
                         "Status"});
             table4.AddRow(new string[] {
                         "C-992-H",
-                        "Active"});
+                        "Ready"});
 #line 36
  testRunner.When("I send the request of adding the following transport", ((string)(null)), table4, "When ");
 #line hidden
@@ -179,16 +179,16 @@ this.FeatureBackground();
                         "Status"});
             table5.AddRow(new string[] {
                         "P-348-A",
-                        "Active"});
+                        "Ready"});
             table5.AddRow(new string[] {
                         "S-232-G",
-                        "Active"});
+                        "Ready"});
             table5.AddRow(new string[] {
                         "T-282-D",
-                        "Active"});
+                        "Ready"});
             table5.AddRow(new string[] {
                         "C-992-H",
-                        "Active"});
+                        "Ready"});
 #line 39
  testRunner.Then("I should have the following active transports in the system", ((string)(null)), table5, "Then ");
 #line hidden
@@ -212,7 +212,7 @@ this.FeatureBackground();
                         "Status"});
             table6.AddRow(new string[] {
                         "T-282-D",
-                        "Active"});
+                        "Ready"});
 #line 49
  testRunner.When("I send the request of retiring the following transport", ((string)(null)), table6, "When ");
 #line hidden
@@ -254,13 +254,13 @@ this.FeatureBackground();
                         "Status"});
             table8.AddRow(new string[] {
                         "P-348-A",
-                        "Active"});
+                        "Ready"});
             table8.AddRow(new string[] {
                         "S-232-G",
-                        "Active"});
+                        "Ready"});
             table8.AddRow(new string[] {
                         "T-282-DH",
-                        "Active"});
+                        "Ready"});
             table8.AddRow(new string[] {
                         "V-517-U",
                         "Retired"});
@@ -269,6 +269,27 @@ this.FeatureBackground();
                         "Retired"});
 #line 62
  testRunner.Then("I should have the following transports in the system", ((string)(null)), table8, "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Retiring a transport that is in \"Work\" state")]
+        [NUnit.Framework.CategoryAttribute("Transport_Manager_User")]
+        public virtual void RetiringATransportThatIsInWorkState()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Retiring a transport that is in \"Work\" state", new string[] {
+                        "Transport_Manager_User"});
+#line 72
+this.ScenarioSetup(scenarioInfo);
+#line 6
+this.FeatureBackground();
+#line 73
+ testRunner.When("I send the request of retiring a transport that is in Work state", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 74
+ testRunner.Then("The transport should remain Ready", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 75
+ testRunner.And("I should get the message \"You cannot retire a transport in work state\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
         }
